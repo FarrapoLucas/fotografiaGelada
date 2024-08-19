@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "ConcertOne";
+    src: local(ConcertOne), url('../public/fonts/Concert_One/ConcertOne-Regular.ttf') format(truetype);
+}
+@font-face {
+    font-family: "Roboto";
+    src: local(Roboo), url('../public/fonts/Roboto/Roboto-Thin.ttf') format(truetype);
+}
+.cabecalho {
+    font-family: "ConcertOne";
+    font-size: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.botao{
+    font-family: "Roboto";
+    color: white;
+    background-color: #161616;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+.title{
+    font-family: "Roboto";
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #161616;
+    border-bottom: 2px solid #161616;
+    padding: 10px;
+}
