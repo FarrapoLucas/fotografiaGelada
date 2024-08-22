@@ -1,15 +1,15 @@
+@font-face {
+    font-family: "ConcertOne";
+    src: local(ConcertOne), url('../fonts/Concert_One/ConcertOne-Regular.ttf') format(truetype);
+}
+@font-face {
+    font-family: "Roboto";
+    src: local(Roboo), url('../fonts/Roboto/Roboto-Regular.ttf') format(truetype);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-@font-face {
-    font-family: "ConcertOne";
-    src: local(ConcertOne), url('../public/fonts/Concert_One/ConcertOne-Regular.ttf') format(truetype);
-}
-@font-face {
-    font-family: "Roboto";
-    src: local(Roboo), url('../public/fonts/Roboto/Roboto-Thin.ttf') format(truetype);
 }
 .cabecalho {
     font-family: "ConcertOne";
@@ -37,4 +37,40 @@
     border-top: 2px solid #161616;
     border-bottom: 2px solid #161616;
     padding: 10px;
+}
+.gradedefotos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagem1 {
+    width: 800px;
+    height: 400px;
+    padding: 20px;
+}
+.imagem2 {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+.rodape {
+    background-color: #161616;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-rodape {
+    font-family: "ConcertOne";
+    line-height: 1.2;
+    white-space: pre-line;
+    font-size: 20px;
+}
+.redessociais {
+    display: flex;
+    gap: 50px;
+}
+.copyright {
+    font-family: "Roboto";
+    font-size: 15px;
 }
